@@ -1,6 +1,17 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>Redirection…</title>
-<link rel="canonical" href="https://www.egoblog.net/">
-<meta http-equiv="refresh" content="0; url=https://www.egoblog.net/">
-<script>location.href="https://www.egoblog.net/";</script>
+<script>
+  // Rediriger uniquement si on est sur le domaine nu
+  if (location.hostname === 'egoblog.net') {
+    var target = location.protocol + '//www.egoblog.net' +
+                 location.pathname + location.search + location.hash;
+    // replace = pas d'aller-retour dans l'historique → pas de boucle
+    location.replace(target);
+  }
+  // Sinon (déjà sur www), ne rien faire
+</script>
+<noscript>
+  <p>Ce site est disponible sur
+     <a href="https://www.egoblog.net/">https://www.egoblog.net/</a>.</p>
+</noscript>
