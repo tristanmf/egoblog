@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirection...</title>
+		<meta http-equiv="refresh" content="0;url=https://www.egoblog.net/wp-includes/fonts/dashicons.svg">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://www.egoblog.net/wp-includes/fonts/dashicons.svg";
+		</script>
+
+		<p>Vous êtes redirigé vers <a href="https://www.egoblog.net/wp-includes/fonts/dashicons.svg">https://www.egoblog.net/wp-includes/fonts/dashicons.svg</a></p>
+	</body>
+</html>
